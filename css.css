@@ -1,0 +1,801 @@
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&family=Roboto:ital,wght@1,300&family=Source+Sans+Pro:ital@1&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+#cabecario{
+    background: linear-gradient(to right,  #1055eb,#1c8eda,#081fee);
+    text-align-last: center;
+    width: 100%;
+    height: 50px;
+}
+
+#frase{
+   font-size: 29px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fffefd;
+
+
+}
+
+#menu{
+    background: rgb(17,114,246);
+    background: radial-gradient(circle, rgba(17,114,246,1) 13%, rgba(0,36,5,1) 40%, rgba(9,121,18,1) 84%);
+    width: 200%;
+    height: 250px;
+    
+
+
+}
+
+#logo{
+    position: absolute;
+    width: 230px;
+    height: 220px;
+    cursor: pointer;
+    top: 5%;
+    
+}
+
+#car{
+    width: 45px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute ;
+    top: 16%;
+    right: 10%
+    
+    
+    
+}
+
+#btn{
+    border-radius: 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 11%;
+    right: 35%;
+    width: 480px;
+    height: 90px;
+    font-size: 50px;
+    color: rgb(240, 236, 0);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #3280e7;
+    border-style: hidden;
+    text-align:  center;
+   
+}
+#btn:hover, #btn:active {
+    border: 3px solid rgb(21, 104, 1);
+    background-color: #13d14c;
+    color: #fffefd;
+    
+    
+}
+
+#sac{
+    cursor: pointer;
+    width: 45px;
+    height: 40px;
+    position: absolute;
+    right: 6%;
+    top: 16%;
+}
+
+#texto1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: #00ff11;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+    top: 29%;
+    left: 13%;
+}
+
+.zoom img {
+	max-width: 100%;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.zoom:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+#prinp{
+    cursor: pointer;
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    width: 500px;
+    height: 520px;
+}
+
+
+#camiseta2{
+    position: absolute;
+    cursor: pointer;
+    top: 40%;
+    right: 38%;
+    width: 500px;
+    height: 520px;
+    
+}
+
+#camiseta3{
+    position: absolute;
+    cursor: pointer;
+    top: 40%;
+    right:6%;
+    width: 500px;
+    height: 520px;
+}
+
+#btn{
+
+    font-family: Nunito;
+    font-weight: 0;
+    font-size: 27px;
+    color: #fff;
+    background-color: #0066CC;
+    padding: 10px 30px;
+    border: 2px solid #0066cc;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    text-align: center ;
+    align-items: center;
+    cursor: pointer;
+    }
+    
+    #btn:hover{
+    
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #0066cc;
+    border: solid 2px #0066cc;
+    }
+
+#btx{
+    cursor: pointer;
+    font-size: 30px;
+    width: 300px;
+    height:80px;
+    border-radius: 50px;
+    border: 18px;
+    position: absolute;
+    top: 0%;
+    font-family:Nunito;
+    color: #d2d42a;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 78%;
+    right: 78%;
+}
+
+#btx:hover{
+    transition: 500ms;
+    color:#0066cc ;
+    background-color: #ffffff;
+}
+
+#btx2{
+    cursor: pointer;
+    font-size: 30px;
+    width: 300px;
+    height:80px;
+    border-radius: 50px;
+    border: 18px;
+    position: absolute;
+    font-family:Nunito;
+    color: #d2d42a;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 78%;
+    right: 42%;
+}
+#btx2:hover{
+    transition: 500ms;
+    color:#0066cc;
+    background-color: #ffffff;
+}
+
+#btx3{
+    cursor: pointer;
+    font-size: 30px;
+    width: 300px;
+    height: 80px;
+    border-radius: 50px;
+    border:18px;
+    position:absolute;
+    top:78%;
+    right: 10%;
+    font-family:Nunito;
+    color: #d2d42a;
+    background-color:rgb(0, 0, 0);
+}
+
+#btx3:hover{
+    transition:500ms;
+    color:#0066CC;
+    background-color:#ffffff;
+}
+
+#selecao{
+    position: absolute;
+    top: 110%;
+    left: 25%;
+    border-radius: 20px;
+
+  
+}
+
+#textoselecao{
+    font-family: Poppins;
+    font-size: 34px;
+    position: absolute;
+    top: 180%;
+    background-color: #101010;
+    color: #ffffff;
+}
+
+#rodape{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 400%;
+    background-color: rgb(3, 133, 255);
+    bottom: 100%;
+
+}
+
+#lista{
+    align-items: center;
+    display: flex;
+
+}
+.gg-facebook{
+    color: #fcf9f9;
+    position: absolute;
+    left: 5000%;
+    width: 600px;
+    height: 60px;
+    top: 7px;
+}
+
+.gg-instagram{
+    color: #ffffff;
+    position: absolute;
+    left: 5150%;
+    top: 8px;
+
+}
+.gg-twitter{
+    color: #ffffff;
+    position: absolute;
+    top: 8px;
+    left: 5250%;
+}
+
+.gg-adidas{
+    color: #ffffff;
+    position: absolute;
+    top: 8px;
+    left: 4700%;
+}
+
+#textocont{
+    font-family: Poppins;
+    font-size: 45px;
+    position: absolute;
+    top: 0%;
+    left: 120px;
+    color: #fefffd;
+
+    
+}
+
+#fundo{
+    position: absolute;
+  
+    top: 330%;
+    bottom: 20%;
+    height: 730px;
+    width: 100%;
+    background: radial-gradient(circle, rgb(6, 114, 255) 19%, rgb(1, 79, 224) 98%);
+}
+
+
+
+
+#cont{ 
+    border-radius: 20px;
+    width: 96%;
+    height: 610px;
+    background-color: #0cb0ff;
+    position: absolute;
+    top:335%;
+    margin-left: 27px;
+}
+
+
+.duvidatextoemail{
+    font-family:Poppins;
+    color:rgb(50, 7, 151);
+    position: absolute;
+    left: 6%;
+    top: 336%;
+    font-size: 50px
+}
+
+
+#ftemail{
+    height: 100px;
+    position: absolute;
+    top: 357%;
+    left: 190px;
+    cursor: pointer;
+}
+
+.email{
+    font-family:Poppins;
+    top: 368%;
+    left: 210px;
+    position: absolute;
+    color:#f8f8f8 ;
+}
+
+.fraseduvidaemail{
+    font-family: Poppins;
+    font-size: 30px;
+    position: absolute;
+    top: 373%;
+    left: 210px;
+    color: rgb(20, 5, 233);
+
+}
+
+.emaildapagina{
+    font-family: Poppins;
+    font-size: 40px;
+    position: absolute;
+    top: 379%;
+    left: 210px;
+
+}
+
+#telefone{
+    height: 80px;
+    position: absolute;
+    top: 359%;
+    left: 40%;
+    cursor: pointer;
+
+}
+
+.textotelefone{
+    font-family: Poppins;
+    position: absolute;
+    top: 368%;
+    left: 40%;
+    color: #fefffd;
+}
+
+.textoduvidatelefone{
+    font-family: Poppins;
+    font-size: 30px;
+    position: absolute;
+    top: 373%;
+    left: 40%;
+    color: rgb(20, 5, 233);
+}
+
+.numerodotelefone{
+    font-family:Poppins;
+    font-size: 40px;
+    position: absolute;
+    top: 379%;
+    left: 40%;
+}
+
+#fotochat{
+    width: 80px;
+    position: absolute;
+    top: 359%;
+    left: 67%;
+    cursor: pointer;
+}
+
+.textochat{
+    font-family:Poppins;
+    color: #f8f8f8;
+    position: absolute;
+    top: 368%;
+    left: 67%;
+}
+
+.textoduvidachat{
+    font-family:Poppins;
+    color: #fefffd;
+    position: absolute;
+    top: 373%;
+    left: 67%;
+    color: #081fee;
+    font-size: 30px;
+}
+
+.chatdapagina{
+    font-family:Poppins;
+    color: #fefffd;
+    position: absolute;
+    top: 378%;
+    left: 67%;
+    color: #080808;
+    
+}
+
+#feebackfoto{
+    width: 1000px;
+    left: 5%;
+    position: absolute;
+    top:230%;
+}
+
+.textofeedback{
+    font-size: 80px;
+    position: absolute;
+    top:230%;
+    left: 56%;
+    font-family: Poppins;
+    color: rgb(8, 7, 7);
+    font-size:70px
+   
+}
+
+.textosobrefeedback{
+    font-family: Poppins;
+    position: absolute;
+    top:240%;
+    left: 56%;
+    font-size: 30px;
+}
+
+#botaovaliar{
+    cursor: pointer;
+    font-size: 25px;
+    width: 400px;
+    height:80px;
+    border-radius: 50px;
+    border: 18px;
+    position: absolute;
+    top: 0%;
+    font-family:Poppins;
+    color: #080808;
+    background-color: rgb(3, 178, 247);
+    position: absolute;
+    top: 275%;
+    left: 56%;
+}
+
+#botaovaliar:hover{
+    transition: 500ms;
+    color:#0066cc ;
+    background-color: #d87d7d;
+}
+
+#textoselecao2022{
+    font-family: Poppins;
+    font-size: 90px;
+    position: absolute;
+    top:96%;
+    left: 38%;
+}
+#textoselecao2022:hover{
+    color: #d2d42a;
+}
+
+@media screen and (max-width: 992px) {
+    #cabecario {
+      width: 100%;
+      height: 35px;
+
+    }
+  }
+
+@media screen and (max-width: 992px) {
+    #menu {
+    width: 100%;
+    height: 160px;
+    background: rgb(17,114,246);
+    background: radial-gradient(circle, rgba(17,114,246,1) 13%, rgba(0,36,5,1) 40%, rgba(9,121,18,1) 84%);
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    #menu {
+    width: 100%;
+    height: 170px;
+    background: rgb(17,114,246);
+    background: radial-gradient(circle, rgba(17,114,246,1) 13%, rgba(0,36,5,1) 40%, rgba(9,121,18,1) 84%);
+    }
+  }
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1092px) {
+    #logo {
+      width: 85px;
+      height: 100px;
+      position: flex;
+      top: 5%;
+      left: 14px;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    #btn {
+      width: 180px;
+      height: 60px;
+      position: flex;
+      top: 7%;
+      left: 250px;
+      font-size: 15px;
+      
+    }
+  }
+
+@media screen and (max-width:992px){
+    #menu{
+        background:radial-gradient(  rgb(22, 225, 49) , rgba(9,121,18,1) );;
+        width: 100%;
+        height: 150px;
+        
+    
+    
+    }
+}
+
+@media screen and (max-width:992px){
+    #sac{
+        position: flex;
+        top: 9%;
+    }
+}
+
+@media screen and (max-width:992px){
+    #car{
+        position: flex;
+        top: 9%;
+        right: 17%;
+    }
+}
+
+@media screen and (max-width:992px){
+    #texto1{
+        position: flex;
+        top: 17%;
+        font-size: 25px;
+        color: rgb(16, 15, 15);
+    }
+}
+
+@media screen and (max-width:992px){
+    #prinp{
+        height: 520px;
+        width:500px;
+        position: absolute;
+        top: 33%;
+        left:20%
+    }
+}
+
+@media screen and (max-width:992px){
+    #btx{
+        height: 60px;
+        width: 250px;
+        position: absolute;
+        top: 73%;
+        left:41%
+    }
+    #btx2{
+        height: 60px;
+        width: 250px;
+        position: absolute;
+        top: 130%;
+        left: 41%;
+    }
+    #btx3{
+        height: 60px;
+        width: 250px;
+        position: absolute;
+        top: 185%;
+        left: 41%;
+    }
+
+}
+
+
+@media screen and (max-width:992px){
+    #camiseta2{
+        height: 520px;
+        width:500px;
+        position: absolute;
+        top: 90%;
+        left: 21%;
+    }
+    
+}
+
+@media screen and (max-width:992px){
+    #camiseta3{
+        height: 520px;
+        width:500px;
+        position: flex;
+        top: 147%;
+        left: 21%;
+    }
+}
+
+@media screen and (max-width:992px){
+    #selecao{
+        height: 395px;
+        position: flex;
+        top: 210%;
+        left: 8%;
+        
+    }
+    #textoselecao {
+        position: absolute;
+        top: 249%;
+        font-size: 20px;
+        text-align: center;
+        
+    }
+    #textoselecao2022{
+        position: flex;
+        top: 200%;
+        font-size: 50px;
+    }
+    
+}
+
+@media screen and (max-width:902px){
+    #feebackfoto{
+        position: absolute;
+        top: 290%;
+        height: 600px;
+        width: 380px;
+        left: 0%;
+    }
+    .textofeedback{
+        font-size: 59px;
+        position: absolute;
+        top: 285%  
+      }
+    .textosobrefeedback{
+        position: absolute;
+        top: 293%;
+        font-size: 20px;
+    }
+    #botaovaliar{
+        position: flex;
+        top: 335%;
+        width: 300px;
+        left: 53%;
+    }
+}
+
+@media screen and (max-width:902px){
+    #cont{
+        position: absolute;
+        top:355%;
+        height: 400px;
+        width: 900px;
+    }
+    #fundo{
+        position: absolute;
+        height: 500px;
+        top: 350%;
+    }
+    .duvidatextoemail{
+        position:flex;
+        top: 355%;
+        font-size: 40px;
+    }
+    #ftemail{
+        position:flex;
+        top: 367%;
+        left: 40px;
+    }
+    .email{
+        position:flex;
+        top: 375%;
+        left: 57px;
+    }
+    .fraseduvidaemail{
+        position:flex;
+        font-size: 30px;
+        top: 379%;
+        left: 54px;
+        font-size: 30px;
+    }
+    .emaildapagina{
+        position: flex;
+        top: 385%;
+        left: 54px;
+        font-size: 30px;
+    }
+    #telefone{
+        position: flex;
+        top: 369%;
+        left: 537px;
+    }
+    .textotelefone{
+        position: flex;
+        top: 376%;
+        left: 530px;
+    }
+
+    .textoduvidatelefone{
+        position: flex;
+        font-size: 20px;
+        left: 474px;
+        top: 380%;
+
+    }
+    .numerodotelefone{
+        position: flex;
+        top: 0%
+    }
+    #fotochat{
+        position: absolute;
+        top: 0%
+    }
+    .textochat{
+        position: absolute;
+        top: 0%
+    }
+    .textoduvidachat{
+        position: absolute;
+        top: 0%
+    }
+    .chatdapagina{
+        position: absolute;
+        top: 0%
+    }
+}
+
